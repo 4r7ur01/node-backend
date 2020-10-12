@@ -1,0 +1,128 @@
+{
+	"id": "18d201dd-4696-4575-8bd8-b06e59198065",
+	"name": "mvc-express-test",
+	"description": "",
+	"auth": null,
+	"events": null,
+	"variables": [],
+	"order": [
+		"ce5cddcc-bea8-48f5-b3af-b1d77aa1c82a",
+		"ff72f94a-7d7c-4b16-bb62-c520014565b6",
+		"c447878b-4cbd-4f28-8fd0-c641bf4db1b8",
+		"6ccef05f-442b-41c8-b8f5-b0a9d5d73ce6",
+		"dfac4289-e837-4212-bfac-3f0de55e0e30"
+	],
+	"folders_order": [],
+	"protocolProfileBehavior": {},
+	"folders": [],
+	"requests": [
+		{
+			"id": "6ccef05f-442b-41c8-b8f5-b0a9d5d73ce6",
+			"name": "update",
+			"url": "http://localhost:1234/person/5f83a8c4501daa30c844b2b5",
+			"description": "",
+			"data": [],
+			"dataOptions": null,
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"method": "PUT",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"rawModeData": "{\r\n  \"Nombres\": \"Arturo programador\",\r\n  \"DNI\": \"76963837\",\r\n  \"Celular\": \"999999999\",\r\n  \"Correo\": \"arturoprogramador@hotmail.com\"\r\n}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "c447878b-4cbd-4f28-8fd0-c641bf4db1b8",
+			"name": "insert",
+			"url": "http://localhost:1234/person",
+			"description": "",
+			"data": [],
+			"dataOptions": null,
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"rawModeData": "{\r\n  \"Nombres\": \"Arturo Elmer Cuadros Cuadros\",\r\n  \"DNI\": \"76963837\",\r\n  \"Celular\": \"924445668\",\r\n  \"Correo\": \"arturoprogramador1.1@gmail.com\"\r\n}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "ce5cddcc-bea8-48f5-b3af-b1d77aa1c82a",
+			"name": "lister",
+			"url": "http://localhost:1234/person",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "dfac4289-e837-4212-bfac-3f0de55e0e30",
+			"name": "delete",
+			"url": "http://localhost:1234/person/5f83a8c6501daa30c844b2b7",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "DELETE",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "ff72f94a-7d7c-4b16-bb62-c520014565b6",
+			"name": "filter",
+			"url": "http://localhost:1234/person",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		}
+	]
+}
